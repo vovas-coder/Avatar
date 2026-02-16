@@ -156,6 +156,11 @@ header {
   white-space: normal;
 }
 
+.hero_btn:hover {
+  background-color: #0a0d58bd;
+  cursor: pointer;
+}
+
 
 .quote {
   width: 100%;
@@ -239,6 +244,12 @@ header .container {
   height: 100%;
 }
 
+.trailer_btn:hover {
+  background-color: #0a0d58bd;
+  cursor: pointer;
+}
+
+
 .trailer_btn {
     width: 210px;
   height: 60px;
@@ -300,7 +311,7 @@ header .container {
   align-items: center;
 }
 
-.footer {
+footer {
   padding: 60px 0;
   background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),
     url(../img/footer_bacground.png);
